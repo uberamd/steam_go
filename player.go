@@ -23,7 +23,7 @@ type PlayerSummaries struct {
 	RealName          string `json:"realname"`
 	PrimaryClanId     string `json:"primaryclanid"`
 	TimeCreated       int    `json:"timecreated"`
-	LocCountryCode    int    `json:"loccountrycode"`
+	LocCountryCode    string `json:"loccountrycode"`
 	LocStateCode      int    `json:"locstatecode"`
 	LocCityId         int    `json:"loccityid"`
 	GameId            int    `json:"gameid"`
